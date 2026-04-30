@@ -4,6 +4,20 @@
 
 我的 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 自定义技能集。
 
+## 🤖 One-Line Agent Setup
+
+If you use Claude Code, Codex, Cursor, Windsurf, or another coding agent, you can hand it the evaluation instructions in one sentence:
+
+`Help me evaluate a skill using the skill-quality-rater by following https://raw.githubusercontent.com/jchj701/sixshrimp-skills/main/skills/skill-quality-rater/AGENT_GUIDE.md — the target skill repo is: {REPO_URL}`
+
+Replace `{REPO_URL}` with the GitHub repository URL of the skill you want to evaluate. The agent will clone the rater, read the guide, evaluate the target skill, and output a complete report.
+
+中文版：如果你使用 Claude Code、Codex、Cursor、Windsurf 或其他编程 Agent，只需一句话：
+
+`请按照 https://raw.githubusercontent.com/jchj701/sixshrimp-skills/main/skills/skill-quality-rater/AGENT_GUIDE.md 的指导，评估这个 Skill：{REPO_URL}`
+
+将 `{REPO_URL}` 替换为你要评估的 Skill 的 GitHub 仓库地址。Agent 会自动完成评分器安装、理解评分体系、执行8维度评估、输出完整报告。
+
 ## 安装
 
 使用 [skills CLI](https://github.com/vercel-labs/skills)（基于 `npx`）一行安装：

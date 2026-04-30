@@ -4,6 +4,14 @@ English | [中文](./README.md)
 
 My [Claude Code](https://docs.anthropic.com/en/docs/claude-code) custom skills collection.
 
+## 🤖 One-Line Agent Setup
+
+If you use Claude Code, Codex, Cursor, Windsurf, or another coding agent, you can hand it the evaluation instructions in one sentence:
+
+`Help me evaluate a skill using the skill-quality-rater by following https://raw.githubusercontent.com/jchj701/sixshrimp-skills/main/skills/skill-quality-rater/AGENT_GUIDE.md — the target skill repo is: {REPO_URL}`
+
+Replace `{REPO_URL}` with the GitHub repository URL of the skill you want to evaluate. The agent will clone the rater, read the guide, evaluate the target skill, and output a complete report.
+
 ## Installation
 
 Using [skills CLI](https://github.com/vercel-labs/skills) (via `npx`):
