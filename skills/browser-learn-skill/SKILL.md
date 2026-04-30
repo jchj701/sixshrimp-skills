@@ -1,3 +1,10 @@
+---
+name: browser-learn-executor
+description: "BrowserLearn AI Agent execution skill, defining the complete workflow from human demonstration learning to automated execution. Covers reproducibility assessment, environment checking, recording interpretation, confidence detection, and script solidification."
+version: "0.1.0"
+user_invocable: true
+---
+
 # BrowserLearn AI Agent 执行技能
 
 ## 元信息表

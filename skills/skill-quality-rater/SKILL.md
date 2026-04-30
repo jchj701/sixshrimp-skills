@@ -1,3 +1,10 @@
+---
+name: skill-quality-rater
+description: "Skill quality evaluation framework with 8-dimension scoring, freedom spectrum analysis, layered architecture check, and inversion test. Evaluates AI skill quality systematically."
+version: "0.1.0"
+user_invocable: true
+---
+
 # Skill Quality Rater - 技能质量评估器
 
 > **概念溯源**
