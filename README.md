@@ -46,6 +46,7 @@ cp -r sixshrimp-skills/skills/* ~/.claude/skills/
 |:---|:---:|:---|:---|
 | **skill-quality-rater** | 0.1.0 | 8维度技能质量评估器 | Python 3 |
 | **browser-learn-skill** | 0.1.0 | 浏览器操作录制与AI自主学习 | Python 3, browser-use SDK |
+| **collection-keeper** | 0.2.0 | "马一下"收藏管家，支持微信文章提取 | Python 3, lark_cli, wechat_fetch_v2.py |
 
 ## ⚠️ 状态：未经测试
 

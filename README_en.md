@@ -40,6 +40,7 @@ cp -r sixshrimp-skills/skills/* ~/.claude/skills/
 |:---|:---:|:---|:---|
 | **skill-quality-rater** | 0.1.0 | 8-dimension skill quality rater | Python 3 |
 | **browser-learn-skill** | 0.1.0 | Browser operation recording & AI self-learning | Python 3, browser-use SDK |
+| **collection-keeper** | 0.2.0 | "Mark it" collection keeper with WeChat article extraction | Python 3, lark_cli, wechat_fetch_v2.py |
 
 ## ⚠️ Status: Untested
 
