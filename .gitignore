@@ -3,3 +3,6 @@
 __pycache__/
 .DS_Store
 *.pyc
+# Local config with private info
+.env.local
+.env
