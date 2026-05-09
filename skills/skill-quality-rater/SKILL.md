@@ -202,16 +202,14 @@ skill-quality-rater/
 │   ├── layer_architecture.md     # L1/L2/L3分层架构说明 ⭐核心
 │   ├── antipattern_library.md    # 反模式库
 │   ├── domain_rules/
-│   │   ├── document-processing.yaml  # 文档处理领域规则
-│   │   ├── data-analysis.yaml        # 数据分析领域规则
-│   │   └── code-development.yaml     # 代码开发领域规则
+│   │   ├── document-processing.md  # 文档处理领域规则
+│   │   ├── data-analysis.md        # 数据分析领域规则
+│   │   └── code-development.md     # 代码开发领域规则
 │   └── forbidden_files.md        # 禁止文件清单
 ├── scripts/
 │   ├── trigger_collision.py      # 触发词冲突检测
 │   ├── leakage_detector.py       # 测试泄露检测
 │   └── suggest_freedom.py        # 自由度建议生成
-└── store/
-    └── .gitkeep
 ```
 
 ---

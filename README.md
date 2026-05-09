@@ -70,10 +70,10 @@ cp -r sixshrimp-skills/skills/* ~/.claude/skills/
 
 | 评估维度 | 溯源 | 说明 |
 |:---|:---|:---|
-| 自由度光谱 | [Anthropic "Degrees of Freedom"](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/skill-authoring-best-practices) | 高/中/低自由度分类，脆弱操作→脚本，创造性→文字 |
-| 分层架构 L1/L2/L3 | [Anthropic "Progressive Disclosure"](https://www.anthropic.com/news/equipping-agents-for-the-real-world-with-agent-skills) (2025-10-16) | 三级渐进式披露，也被 [OpenAI skill-creator](https://github.com/openai/skills) 和 [Google ADK](https://cloud.google.com/blog/topics/developers-practitioners/5-agent-skill-design-patterns-every-adk-developer-should-know) 采用 |
+| 自由度光谱 | [Anthropic "Degrees of Freedom"](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/best-practices) | 高/中/低自由度分类，脆弱操作→脚本，创造性→文字 |
+| 分层架构 L1/L2/L3 | [Anthropic "Progressive Disclosure"](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) (2025-10-16) | 三级渐进式披露，也被 [OpenAI skill-creator](https://github.com/openai/skills) 和 [Google ADK](https://google.github.io/adk-docs/skills/) 采用 |
 | 反转测试 | 受 [OpenAI skill-creator](https://github.com/openai/skills) "inversion test" 启发 | skill-creator 提到了将正面指导改写为"不要做X"的思路，本技能将其**系统化为一个正式评估维度** |
-| 负面触发词 | [Anthropic 最佳实践](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/skill-authoring-best-practices) + [Google ADK Inversion Pattern](https://cloud.google.com/blog/topics/developers-practitioners/5-agent-skill-design-patterns-every-adk-developer-should-know) | 解决 over-triggering 的共识方案 |
+| 负面触发词 | [Anthropic 最佳实践](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/best-practices) + [Google ADK Inversion Pattern](https://google.github.io/adk-docs/skills/) | 解决 over-triggering 的共识方案 |
 
 **本技能的创新点**：将上述分散在各官方文档中的设计原则，整合为一套可执行的 8 维度评分框架，并提供自动化检测脚本（触发词冲突检测、敏感信息泄露检测、自由度建议生成）。
 
@@ -162,12 +162,11 @@ browser-learn-skill/
 
 ## 参考资料
 
-- [Anthropic: Equipping agents for the real world with Agent Skills](https://www.anthropic.com/news/equipping-agents-for-the-real-world-with-agent-skills) (2025-10-16)
-- [Anthropic: Skill authoring best practices](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/skill-authoring-best-practices)
+- [Anthropic: Equipping agents for the real world with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) (2025-10-16)
+- [Anthropic: Skill authoring best practices](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/best-practices)
 - [Anthropic: The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
 - [OpenAI: skill-creator](https://github.com/openai/skills)
-- [Google ADK: 5 Agent Skill Design Patterns](https://cloud.google.com/blog/topics/developers-practitioners/5-agent-skill-design-patterns-every-adk-developer-should-know)
-- [OpenAI: Prompt Engineering Best Practices](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
+- [Google ADK: Skills for ADK agents](https://google.github.io/adk-docs/skills/)
 
 ---
 

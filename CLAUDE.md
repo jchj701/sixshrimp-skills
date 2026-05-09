@@ -12,7 +12,8 @@ This is a personal Claude Code skills repository. Each skill is a self-contained
 sixshrimp-skills/
 ├── skills/
 │   ├── skill-quality-rater/    # 8-dimension skill quality rater
-│   └── browser-learn-skill/    # Browser operation recording & AI self-learning
+│   ├── browser-learn-skill/    # Browser operation recording & AI self-learning
+│   └── collection-keeper/     # "Mark it" content collection to Feishu
 ├── README.md                   # Chinese (default)
 ├── README_en.md                # English
 ├── CLAUDE.md

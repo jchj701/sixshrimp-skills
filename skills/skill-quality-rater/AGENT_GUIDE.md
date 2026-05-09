@@ -33,7 +33,7 @@ Skill Quality Rater 是一个系统化的 Skill 质量评估工具，通过 8 �
 ### 2.1 克隆仓库
 
 ```bash
-git clone https://github.com/sixshrimp/sixshrimp-skills.git
+git clone https://github.com/jchj701/sixshrimp-skills.git
 cd sixshrimp-skills/skills/skill-quality-rater
 ```
 
@@ -53,15 +53,13 @@ skill-quality-rater/
 │   ├── antipattern_library.md     # 反模式库（常见问题汇总）
 │   ├── forbidden_files.md         # 禁止文件清单
 │   └── domain_rules/             # 领域特定规则
-│       ├── document-processing.yaml
-│       ├── data-analysis.yaml
-│       └── code-development.yaml
+│       ├── document-processing.md
+│       ├── data-analysis.md
+│       └── code-development.md
 ├── scripts/
 │   ├── trigger_collision.py      # 触发词冲突检测
 │   ├── leakage_detector.py       # 测试泄露检测
 │   └── suggest_freedom.py        # 自由度建议生成
-└── store/
-    └── .gitkeep
 ```
 
 ### 2.3 辅助脚本
@@ -196,9 +194,9 @@ skill-quality-rater/
 | <7 | 有偏差 |
 
 **领域规则库**（见 domain_rules/）：
-- `document-processing.yaml`：文档处理领域
-- `data-analysis.yaml`：数据分析领域
-- `code-development.yaml`：代码开发领域
+- `document-processing.md`：文档处理领域
+- `data-analysis.md`：数据分析领域
+- `code-development.md`：代码开发领域
 
 #### D8. 安全边界（权重 5%）
 

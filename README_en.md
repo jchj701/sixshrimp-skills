@@ -64,10 +64,10 @@ The evaluation dimensions are not invented from scratch. They originate from est
 
 | Dimension | Source | Notes |
 |:---|:---|:---|
-| Freedom Spectrum | [Anthropic "Degrees of Freedom"](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/skill-authoring-best-practices) | High/Medium/Low freedom classification |
-| Layered Architecture L1/L2/L3 | [Anthropic "Progressive Disclosure"](https://www.anthropic.com/news/equipping-agents-for-the-real-world-with-agent-skills) (2025-10-16) | Also adopted by [OpenAI skill-creator](https://github.com/openai/skills) and [Google ADK](https://cloud.google.com/blog/topics/developers-practitioners/5-agent-skill-design-patterns-every-adk-developer-should-know) |
+| Freedom Spectrum | [Anthropic "Degrees of Freedom"](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/best-practices) | High/Medium/Low freedom classification |
+| Layered Architecture L1/L2/L3 | [Anthropic "Progressive Disclosure"](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) (2025-10-16) | Also adopted by [OpenAI skill-creator](https://github.com/openai/skills) and [Google ADK](https://google.github.io/adk-docs/skills/) |
 | Inversion Test | Inspired by [OpenAI skill-creator](https://github.com/openai/skills) "inversion test" | skill-creator mentions rewriting positive guidance as "don't do X"; this skill **systematizes it as a formal evaluation dimension** |
-| Negative Triggers | [Anthropic best practices](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/skill-authoring-best-practices) + [Google ADK Inversion Pattern](https://cloud.google.com/blog/topics/developers-practitioners/5-agent-skill-design-patterns-every-adk-developer-should-know) | Consensus solution for over-triggering |
+| Negative Triggers | [Anthropic best practices](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/best-practices) + [Google ADK Inversion Pattern](https://google.github.io/adk-docs/skills/) | Consensus solution for over-triggering |
 
 **This skill's innovation**: Integrating the above scattered design principles into an executable 8-dimension scoring framework, with automated detection scripts (trigger collision, sensitive info leakage, freedom level suggestions).
 
@@ -156,12 +156,11 @@ browser-learn-skill/
 
 ## References
 
-- [Anthropic: Equipping agents for the real world with Agent Skills](https://www.anthropic.com/news/equipping-agents-for-the-real-world-with-agent-skills) (2025-10-16)
-- [Anthropic: Skill authoring best practices](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/skill-authoring-best-practices)
+- [Anthropic: Equipping agents for the real world with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) (2025-10-16)
+- [Anthropic: Skill authoring best practices](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/best-practices)
 - [Anthropic: The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
 - [OpenAI: skill-creator](https://github.com/openai/skills)
-- [Google ADK: 5 Agent Skill Design Patterns](https://cloud.google.com/blog/topics/developers-practitioners/5-agent-skill-design-patterns-every-adk-developer-should-know)
-- [OpenAI: Prompt Engineering Best Practices](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
+- [Google ADK: Skills for ADK agents](https://google.github.io/adk-docs/skills/)
 
 ---
 

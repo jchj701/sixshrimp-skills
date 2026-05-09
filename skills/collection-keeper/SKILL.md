@@ -1,3 +1,10 @@
+---
+name: collection-keeper
+description: "Mark and collect content to Feishu document. Use when user says '马一下', '收藏', 'mark一下', or wants to save content to their collection document."
+version: "0.2.0"
+user_invocable: true
+---
+
 # 收藏管家 (Collection Keeper)
 
 ## 功能说明
