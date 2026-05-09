@@ -8,8 +8,8 @@ user_invocable: true
 # Skill Quality Rater - 技能质量评估器
 
 > **概念溯源**
-> - 自由度光谱 → Anthropic [Degrees of Freedom](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/skill-authoring-best-practices)
-> - 分层架构 → Anthropic [Progressive Disclosure](https://www.anthropic.com/news/equipping-agents-for-the-real-world-with-agent-skills) (2025-10-16)
+> - 自由度光谱 → Anthropic [Degrees of Freedom](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/best-practices)
+> - 分层架构 → Anthropic [Progressive Disclosure](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) (2025-10-16)
 > - 反转测试 → 受 OpenAI [skill-creator](https://github.com/openai/skills) 启发，系统化为评估维度
 > - 融合 SkillCheck、agent-skill-evaluator 等工具的评估思路
 
@@ -22,8 +22,8 @@ user_invocable: true
 
 ### 三大核心评估维度
 
-1. **自由度光谱**（源自 [Anthropic "Degrees of Freedom"](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/skill-authoring-best-practices)）：检查脆弱操作是否用脚本锁死，创造性任务是否过度约束
-2. **分层架构**（源自 [Anthropic "Progressive Disclosure"](https://www.anthropic.com/news/equipping-agents-for-the-real-world-with-agent-skills)）：L1/L2/L3是否各在其位，零token成本利用references
+1. **自由度光谱**（源自 [Anthropic "Degrees of Freedom"](https://docs.anthropic.com/en/docs/agents-and-tools/agent-skills/best-practices)）：检查脆弱操作是否用脚本锁死，创造性任务是否过度约束
+2. **分层架构**（源自 [Anthropic "Progressive Disclosure"](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)）：L1/L2/L3是否各在其位，零token成本利用references
 3. **反转测试**（受 [OpenAI skill-creator](https://github.com/openai/skills) "inversion test" 启发，系统化为评估维度）：每条正面指导能否改写为"不要做X"
 
 ---
